@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <parameter name="url" value="https://demowebshop.tricentis.com/login"></parameter>
+	  <parameter name="emailId" value="lucky0412@gmail.com"></parameter>
+	  <parameter name="pwd" value="lucky0412@"></parameter>
+	  
+    <classes>
+      <class name="workingwithTestng.TaskSoftassertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
